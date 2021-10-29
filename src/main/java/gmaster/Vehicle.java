@@ -1,3 +1,5 @@
+package gmaster;
+
 public class Vehicle {
 
     private String brand;

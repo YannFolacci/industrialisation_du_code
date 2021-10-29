@@ -1,4 +1,6 @@
-public class Car extends Vehicle{
+package gmaster;
+
+public class Car extends Vehicle {
 
     private int horses;
 

@@ -1,7 +1,8 @@
+package gmaster;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
-
 
 public class CalculatorTest {
     private final Calculator calculator = new Calculator();
@@ -28,7 +29,7 @@ public class CalculatorTest {
 
     @Test
     void should_power_correctly() {
-        assertEquals(64., calculator.power(4,3));
+        assertEquals(64., calculator.power(4, 3));
     }
 
     @Test
@@ -60,6 +61,7 @@ public class CalculatorTest {
     void should_not_power_correctly() {
         assertNotEquals(6., calculator.power(4, 3));
     }
+
     @Test
     void should_not_square_correctly() {
         assertNotEquals(6., calculator.sqrt(4));
